@@ -10,7 +10,7 @@ function Sobre() {
         <Container fluid>
             <Row>
                 <Col className='col-itself-sobre'>
-                <h4 className='sobre-h4'>Sobre</h4>
+                    <h4 className='sobre-h4'>Sobre</h4>
                     <div className="sobre-container">
                         <div className="sobre-container-item sobre-um">
                             <h2>Sobre a Dra. Alice Sá</h2>
@@ -31,6 +31,34 @@ function Sobre() {
                         <div className="sobre-container-item sobre-dois">
                             <img className='sobre-img' src="https://mediflix.com.br/wp-content/uploads/2020/03/7781-scaled-1.jpg" alt="" />
                         </div>
+                    </div>
+
+                    <div className="sobre-container segundo">
+
+                    <div className="sobre-container-item cont2 sobre-um hided">
+                            <h2>Formação:</h2>
+                            <ul className="lista-formacao">
+                                <li className="lista-itens">Sou um item. ​Clique aqui para me editar.</li>
+                                <li className="lista-itens">Sou um item. ​Clique aqui para me editar.</li>
+                                <li className="lista-itens">Sou um item. ​Clique aqui para me editar.</li>
+                                <li className="lista-itens">Sou um item. ​Clique aqui para me editar.</li>
+                            </ul>
+                        </div>
+
+                        <div className="sobre-container-item cont2 sobre-dois cont2-img">
+                            <img className='C2-sobre-img' src="https://d2dxldo5hhj2zu.cloudfront.net/img/674x,jpeg/https://d3043uog1ad1l6.cloudfront.net/uploads/2021/06/pos-graduacao.jpg" alt="" />
+                        </div>
+
+                        <div className="sobre-container-item cont2 sobre-um show">
+                            <h2>Formação:</h2>
+                            <ul className="lista-formacao">
+                                <li className="lista-itens">Sou um item. ​Clique aqui para me editar.</li>
+                                <li className="lista-itens">Sou um item. ​Clique aqui para me editar.</li>
+                                <li className="lista-itens">Sou um item. ​Clique aqui para me editar.</li>
+                                <li className="lista-itens">Sou um item. ​Clique aqui para me editar.</li>
+                            </ul>
+                        </div>
+
                     </div>
                 </Col>
             </Row>
