@@ -20,6 +20,10 @@ img {
     padding: 0;
 }
 
+.container-row, img {
+    height: 100vh;
+}
+
 .c2 {
     background-color: var(--cor-complementar);
     color: var(--cor-principal);

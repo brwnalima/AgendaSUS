@@ -8,7 +8,7 @@ function Home() {
     return (
       <Container fluid className="full-width-container">
         {/* Stack the columns on mobile by making one full-width and the other half-width */}
-        <Row>
+        <Row className='container-row'>
           <Col xs={12} md={8} className='col-itself c2'>
             <img src="https://global-uploads.webflow.com/5f7c5ad0f02de81be2e6417c/616daf94abf9bb66df13fb6a_residencia-clinica-medica-grande.jpg.jpg" alt="" className="full-width-img" />
           </Col>
