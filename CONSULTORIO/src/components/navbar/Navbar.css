@@ -8,11 +8,6 @@
     --cor-complementar: #d8efed;
     --cor-branca: white;
     --cor-preta: black
-    
-    /*---------------Z INDEXS-------------------*/
-
-    --z-fixado: 1030;
-    --z-tooltip: 10;
 }
 
 .navbar-content {
@@ -24,6 +19,6 @@
     right: 0;
     height: 85px;
     /* Defina a altura desejada */
-    z-index: --z-fixado;
+    z-index: 1080;
     /* Adicione um índice z alto para garantir que o Navbar fique acima de outros elementos da página */
 }

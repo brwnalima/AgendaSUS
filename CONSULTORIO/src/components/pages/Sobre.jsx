@@ -9,7 +9,8 @@ function Sobre() {
     return (
         <Container fluid>
             <Row>
-                <Col>
+                <Col className='col-itself-sobre'>
+                <h4 className='sobre-h4'>Sobre</h4>
                     <div className="sobre-container">
                         <div className="sobre-container-item sobre-um">
                             <h2>Sobre a Dra. Alice Sá</h2>

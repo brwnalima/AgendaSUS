@@ -61,14 +61,14 @@ img {
 /* Dispositivos móveis com largura menor que 576px */
 @media (max-width: 575.98px) {
 
-    .container-row,
     img {
-        height: 50vh;
+        height: 55vh;
     }
 
     .c2 {
         width: 100%;
         padding-bottom: 20px;
+        height: 55vh;
     }
 
     .c2-text {
@@ -77,33 +77,68 @@ img {
     }
 
     .c2-text span {
-        font-size: 16px;
+        font-size: 18px;
     }
 
     .c2-text h1 {
-        font-size: 40px;
+        font-size: 42px;
     }
 
     .c2-text h4 {
-        font-size: 24px;
+        font-size: 26px;
     }
 
     .c2-btn {
         margin-top: 5px;
         margin-left: 5%;
+        padding-bottom: 10px;
     }
 }
 
 /* ------ FIM DO HOME ------- */
 
+
+
+
 /* ------ SOBRE ------- */
+
+
+.sobre-h4 {
+    font-size: 18px;
+    margin-top: 2%;
+    text-align: center;
+    position: relative;
+    /* centraliza o texto */
+    padding-bottom: 10px;
+    /* adiciona espaço para a linha */
+
+}
+
+.sobre-h4::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    /* posiciona a metade da largura */
+    transform: translateX(-50%);
+    /* centraliza a linha */
+    width: 50px;
+    /* largura da linha */
+    height: 3px;
+    /* altura da linha */
+    background-color: var(--cor-principal);
+    /* cor da linha */
+}
+
+.col-itself-sobre {
+    height: 100vh;
+}
 
 .sobre-container {
     display: flex;
     flex-direction: row;
     align-items: center;
-   
-    height: 100vh;
+
 }
 
 .sobre-container-item {
@@ -144,31 +179,36 @@ img {
 
 /* Dispositivos móveis com largura menor que 576px */
 @media (max-width: 575px) {
-    .sobre-container {
-      flex-direction: column;
-      padding-top: 80%;
+
+    .col-itself-sobre {
+        padding-top: 80%;
     }
-    
+
+    .sobre-container {
+        flex-direction: column;
+        
+    }
+
     .sobre-container-item {
-      width: 100%;
-      margin-bottom: 30px;
+        width: 100%;
+        margin-bottom: 30px;
     }
 
     .sobre-um h2 {
         font-size: 30px;
     }
-    
+
     .sobre-um p {
         font-size: 13px;
         width: 80%;
     }
-    
+
     .sobre-img {
-      width: 90%;
-      height: auto;
-      padding-bottom: 5%;
+        width: 90%;
+        height: auto;
+        padding-bottom: 5%;
     }
-    
-  }
+
+}
 
 /* ------ FIM DO SOBRE ------- */
