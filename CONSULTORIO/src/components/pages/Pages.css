@@ -10,7 +10,8 @@
     --cor-preta: black
 }
 
-/* HOME */
+
+/* ------  HOME ------- */
 
 img {
     width: 100%;
@@ -60,14 +61,14 @@ img {
 /* Dispositivos móveis com largura menor que 576px */
 @media (max-width: 575.98px) {
 
-    .container-row,
     img {
-        height: 50vh;
+        height: 55vh;
     }
 
     .c2 {
         width: 100%;
         padding-bottom: 20px;
+        height: 55vh;
     }
 
     .c2-text {
@@ -76,21 +77,194 @@ img {
     }
 
     .c2-text span {
-        font-size: 16px;
+        font-size: 18px;
     }
 
     .c2-text h1 {
-        font-size: 40px;
+        font-size: 42px;
     }
 
     .c2-text h4 {
-        font-size: 24px;
+        font-size: 26px;
     }
 
     .c2-btn {
         margin-top: 5px;
         margin-left: 5%;
+        padding-bottom: 10px;
     }
 }
 
-/* FIM DO HOME */
+/* ------ FIM DO HOME ------- */
+
+
+
+
+/* ------ SOBRE ------- */
+
+
+.sobre-h4 {
+    font-size: 18px;
+    margin-top: 2%;
+    text-align: center;
+    position: relative;
+    /* centraliza o texto */
+    padding-bottom: 10px;
+    /* adiciona espaço para a linha */
+
+}
+
+.sobre-h4::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    /* posiciona a metade da largura */
+    transform: translateX(-50%);
+    /* centraliza a linha */
+    width: 50px;
+    /* largura da linha */
+    height: 3px;
+    /* altura da linha */
+    background-color: var(--cor-principal);
+    /* cor da linha */
+}
+
+.col-itself-sobre {
+    height: 100vh;
+}
+
+.sobre-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 5%;
+
+}
+
+.sobre-container-item {
+    width: 50%;
+    text-align: center;
+}
+
+.sobre-um h2 {
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.sobre-um p {
+    margin: auto;
+    margin-top: 2%;
+    width: 50%;
+    text-align: left;
+    font-size: 16px;
+}
+
+.sobre-img {
+    width: 70%;
+    height: 60%;
+    margin: auto;
+    border: 15px solid var(--cor-principal);
+    border-radius: 10px;
+    border-left: none;
+    border-bottom: none;
+    transition: 0.5s ease-in-out;
+}
+
+.cont2 {
+    padding: 30px;
+    margin-top: 5%;
+    height: 100vh;
+}
+
+
+.C2-sobre-img {
+    width: 50%;
+    height: 50%;
+    border: 15px solid var(--cor-principal);
+    border-radius: 10px;
+    border-left: none;
+    border-bottom: none;
+    transition: 0.5s ease-in-out;
+}
+
+.sobre-img:hover, .C2-sobre-img:hover  {
+    border: 15px solid var(--cor-principal);
+    border-right: none;
+    border-top: none;
+    transition: 1s ease-in-out;
+}
+
+.hided {
+    display: none;
+}
+
+
+/* Dispositivos móveis com largura menor que 576px */
+@media (max-width: 575px) {
+
+    .col-itself-sobre {
+        padding-top: 30%;
+    }
+
+    .sobre-container {
+        flex-direction: column;
+        
+    }
+
+    .sobre-container-item {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .sobre-um h2 {
+        font-size: 30px;
+    }
+
+    .sobre-um p {
+        font-size: 13px;
+        width: 80%;
+    }
+
+
+    .segundo {
+        height: 100vh;
+    }
+
+    .cont2 {
+        padding: 10px;
+        margin-top: 5%;
+    }
+
+    .sobre-img, .C2-sobre-img {
+        width: 100%;
+        height: auto;
+    }
+
+    .C2-sobre-img {
+        width: 100%;
+    }
+
+    .hided {
+        display: block;
+        width: 100%;
+        margin: 0;
+    }
+
+    .show {
+        display: none;
+    }
+
+    .lista-itens {
+        font-size: 13px;
+        width: 80%;
+        margin: auto;
+    }
+
+    .cont2-2 {
+        display: none;
+    }
+
+}
+
+/* ------ FIM DO SOBRE ------- */
