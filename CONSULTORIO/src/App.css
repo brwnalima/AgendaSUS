@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --cor-principal: #064848;
+    --cor-complementar: #d8efed;
+    --cor-branca: white;
+    --cor-preta: black
+}
