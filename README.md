@@ -1,6 +1,6 @@
 # CONSULTORIO-ON
  
-cd consultorio
-npm install
-npm install react-bootstrap bootstrap
-npm run dev
+cd consultorio<br>
+npm install<br>
+npm install react-bootstrap bootstrap<br>
+npm run dev<br>
