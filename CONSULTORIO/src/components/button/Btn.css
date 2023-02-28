@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --cor-principal: #064848;
+    --cor-complementar: #d8efed;
+    --cor-branca: white;
+    --cor-preta: black
+}
+
+.botao {
+    border-color: var(--cor-principal);
+    color: var(--cor-principal);
+}
+
+.botao:hover {
+    background-color: var(--cor-principal)!important;
+    color: var(--cor-complementar);
+    scale: 1.1;
+    transition: 0.5s ease-in-out!important;
+}

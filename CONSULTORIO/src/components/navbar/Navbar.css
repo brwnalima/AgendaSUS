@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --cor-principal: #064848;
+    --cor-complementar: #d8efed;
+    --cor-branca: white;
+    --cor-preta: black
+    
+    /*---------------Z INDEXS-------------------*/
+
+    --z-fixado: 1030;
+    --z-tooltip: 10;
+}
+
+.navbar-content {
+    background-color: var(--cor-principal);
+    box-shadow: 0 0.125rem 0.3125rem 0 #00000013, 0 0.1875rem 0.625rem 0 #00000016;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 85px;
+    /* Defina a altura desejada */
+    z-index: --z-fixado;
+    /* Adicione um índice z alto para garantir que o Navbar fique acima de outros elementos da página */
+}

@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --cor-principal: #064848;
+    --cor-complementar: #d8efed;
+    --cor-branca: white;
+    --cor-preta: black
+}
+
+/* HOME */
+
+img {
+    width: 100%;
+}
+
+.full-width-container,
+.col-itself {
+    padding: 0;
+}
+
+.container-row,
+img {
+    height: 100vh;
+}
+
+.c2 {
+    background-color: var(--cor-complementar);
+    color: var(--cor-principal);
+    padding: 0;
+}
+
+.c2-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50%;
+    margin-left: 10%;
+}
+
+.c2-text span {
+    font-size: 20px;
+}
+
+.c2-text h1 {
+    font-size: 60px;
+}
+
+.c2-text h4 {
+    font-size: 30px;
+}
+
+.c2-btn {
+    margin-top: 10px;
+    margin-left: 10%;
+}
+
+/* Dispositivos móveis com largura menor que 576px */
+@media (max-width: 575.98px) {
+
+    .container-row,
+    img {
+        height: 50vh;
+    }
+
+    .c2 {
+        width: 100%;
+        padding-bottom: 20px;
+    }
+
+    .c2-text {
+        margin-top: 10%;
+        margin-left: 5%;
+    }
+
+    .c2-text span {
+        font-size: 16px;
+    }
+
+    .c2-text h1 {
+        font-size: 40px;
+    }
+
+    .c2-text h4 {
+        font-size: 24px;
+    }
+
+    .c2-btn {
+        margin-top: 5px;
+        margin-left: 5%;
+    }
+}
+
+/* FIM DO HOME */
