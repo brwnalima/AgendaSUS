@@ -18,7 +18,7 @@ function Button({
 
     return (
         <div>
-            <Link to='/' className="btn-mobile">
+            <Link to='/' className="">
                 <button
                     className={`${checkButtonStyle} ${checkButtonSize}`}
                     onClick={onClick}

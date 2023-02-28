@@ -1,6 +1,5 @@
 import Menu from './components/navbar/Navbar'
 
-
 function App() {
 
   return (
