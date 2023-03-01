@@ -10,7 +10,7 @@ function Home() {
 
         <Row className='container-row'>
           <Col sm={8}className='col-itself c1'>
-            <img src="https://global-uploads.webflow.com/5f7c5ad0f02de81be2e6417c/616daf94abf9bb66df13fb6a_residencia-clinica-medica-grande.jpg.jpg" alt="" className="full-width-img" />
+            <img src="./assets/img-home.jpg" alt="" className="full-width-img" />
           </Col>
           <Col sm={4} className='col-itself c2'>
             <div className="c2-text">
