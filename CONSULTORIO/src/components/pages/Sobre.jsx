@@ -13,19 +13,18 @@ function Sobre() {
                     <h4 className='sobre-h4'>Sobre</h4>
                     <div className="sobre-container">
                         <div className="sobre-container-item sobre-um">
-                            <h2>Sobre a Dra. Alice Sá</h2>
-                            <p>Sou um parágrafo. Aqui você pode adicionar seu próprio texto.
-                                É fácil, é só clicar em "Editar texto" ou clicar duas vezes sobre mim para editar seu conteúdo e alterar a fonte.
-                                Você também pode me arrastar e soltar em qualquer lugar da página.
-                                Sou um ótimo espaço para você compartilhar a sua história.
+                            <h2>Sobre a Agenda SUS</h2>
+                            <p> Somos uma clínica médica pública, proporcionamos desde o simples
+                                atendimento para avaliação médica até o transplante de órgão, garantimos à você o 
+                                acesso totalmente gratuito a todo e qualquer tratamento que necessite, consultas com 
+                                enfermeiro(a) ou médico(a), exames e até mesmo operações. Além disso, o acesso é 
+                                universal e atendemos toda a população brasileira, sem discriminações.
                             </p>
 
                             <p>
-                                Use este espaço para escrever um texto longo sobre sua empresa e sobre os serviços que ela oferece.
-                                Conte aos visitantes a história de como você teve a ideia de criá-la e o que a torna diferente de seus concorrentes.
-                                Você pode apresentar a sua equipe, seus projetos e metas.
-                                Faça com que a sua empresa se destaque e mostre aos visitantes quem você é.
-                                Clique em "Editar texto" para começar.
+                            Acreditamos que você tem o direito de cuidar da sua saúde sem se preocupar se poderá pagar 
+                            todo o custo de um tratamento, por exemplo. Com o acesso universal à saúde pública nós 
+                            garantimos que a sua qualidade de vida seja melhor sem que precise se preocupar com valores!
                             </p>
                         </div>
                         <div className="sobre-container-item sobre-dois">
