@@ -58,6 +58,10 @@ img {
     margin-left: 10%;
 }
 
+.lista-formacao {
+    list-style: none;
+}
+
 /* Dispositivos móveis com largura menor que 576px */
 @media (max-width: 575.98px) {
 
@@ -180,7 +184,7 @@ img {
 
 .C2-sobre-img {
     width: 50%;
-    height: 50%;
+    height: 40%;
     border: 15px solid var(--cor-principal);
     border-radius: 10px;
     border-left: none;
