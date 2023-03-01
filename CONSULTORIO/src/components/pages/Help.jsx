@@ -12,15 +12,28 @@ function Help() {
                     <div>
                         <h4 className='help-h4'>Como posso ajudar?</h4>
                         <div className="help-content">
-                            <h1>Serviços online</h1>
-                            <div className="help-cards">
-                                <div className="help-card-itens">
-                                    <CardItem title='1' text='Exame de Sangue'/>
-                                    <CardItem title='2' text='Saúde em geral'/>
-                                    <CardItem title='3' text='Saúde mental'/>
-                                    <CardItem title='4' text='Preveção e bem-estar'/>
+                            <h4>Serviços online</h4>
+
+                            <div className="help-card-itens">
+
+                                <div className="card-item">
+                                    <CardItem title='1' text='Exame de Sangue' className='card-itself' />
                                 </div>
+
+                                <div className="card-item">
+                                    <CardItem title='2' text='Saúde em geral' className='card-itself'/>
+                                </div>
+                            
+                                <div className="card-item">
+                                    <CardItem title='3' text='Saúde mental'  className='card-itself'/>
+                                </div>
+
+                                <div className="card-item">
+                                    <CardItem title='4' text='Preveção e bem-estar' className='card-itself'/>
+                                </div>
+
                             </div>
+
                             <Btn frase="Agenda uma consulta online" />
                         </div>
                     </div>

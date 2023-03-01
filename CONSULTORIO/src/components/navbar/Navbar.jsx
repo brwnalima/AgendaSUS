@@ -7,7 +7,7 @@ import './Navbar.css'
 
 function Menu() {
   return (
-    <Navbar collapseOnSelect className='navbar-content' expand="lg" variant="dark">
+    <Navbar collapseOnSelect fluid className='navbar-content' expand="lg" variant="dark">
       <Container>
         <Navbar.Brand href="#home">Agenda SUS</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
