@@ -1,8 +1,8 @@
 import db from '../infra/db.js'
 
-class ContentsDAO {
+class UsersDAO {
     static listar() {
-        const query = 'SELECT * FROM conteudos';
+        const query = 'SELECT * FROM usuarios';
         return new Promise((resolve, reject) => {
             db.all(query, (err, rows) => {
                 if (err) {
@@ -14,10 +14,10 @@ class ContentsDAO {
         });
     }
 
-    static inserir(conteudo) {
-        const query = 'INSERT INTO conteudos (titulo, descricao, porcentagem) VALUES (?, ?, ?)';
+    static inserir(usuario) {
+        const query = 'INSERT INTO usuarios (nome, email, senha) VALUES (?, ?, ?)';
         return new Promise((resolve, reject) => {
-            db.run(query, [conteudo.titulo, conteudo.descricao, conteudo.porcentagem], function (err) {
+            db.run(query, [usuario.nome, usuario.email, usuario.senha], function (err) {
                 if (err) {
                     reject({
                         mensagem: 'Erro ao inserir o conteúdo',
@@ -34,7 +34,7 @@ class ContentsDAO {
     }
 
     static deletar(id) {
-      const query = 'DELETE FROM conteudos WHERE id = ?';
+      const query = 'DELETE FROM usuarios WHERE id = ?';
       return new Promise((resolve, reject) => {
           db.run(query, [id], (err) => {
               if (err) {
@@ -49,10 +49,10 @@ class ContentsDAO {
       });
     }
 
-    static atualizar(id, conteudo) {
-      const query = 'UPDATE conteudos SET titulo = ?, descricao = ?, porcentagem = ? WHERE id = ?';
+    static atualizar(id, usuario) {
+      const query = 'UPDATE usuarios SET nome = ?, email = ?, senha = ? WHERE id = ?';
       return new Promise((resolve, reject) => {
-          db.run(query, [conteudo.titulo, conteudo.descricao, conteudo.porcentagem, id], (err) => {
+          db.run(query, [usuario.nome, usuario.email, usuario.senha, id], (err) => {
               if (err) {
                   reject({
                       mensagem: 'Erro ao atualizar o conteúdo',
@@ -66,4 +66,4 @@ class ContentsDAO {
     }
 }
 
-export default ContentsDAO;
+export default UsersDAO;

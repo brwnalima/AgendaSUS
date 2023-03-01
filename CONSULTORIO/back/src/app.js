@@ -1,4 +1,4 @@
-import contentsController from './controllers/contentsController.js'
+import usersController from './controllers/usersController.js'
 
 // Importando o packages
 import express from 'express'
@@ -13,6 +13,6 @@ app.use(express.json())
 // configurando o servidor para receber requisições qualquer origem
 app.use(cors())
 
-contentsController.rotas(app)
+usersController.rotas(app)
 
 export default app
