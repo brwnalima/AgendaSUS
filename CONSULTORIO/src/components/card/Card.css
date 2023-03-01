@@ -1,0 +1,16 @@
+.card-content-text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+h1 {
+    padding: 5px;
+    font-size: 70px;
+}
+
+p {
+    padding: 5px;
+    width: 50%;
+    font-size: 20px;
+}
