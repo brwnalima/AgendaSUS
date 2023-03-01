@@ -1,8 +1,10 @@
 # CONSULTORIO-ON
  
+ Front End
 cd consultorio<br>
 npm install<br>
-npm i styled-components axios react-icons react-toastify
+npm i styled-components axios<br> 
+react-icons react-toastify<br>
 npm install react-bootstrap bootstrap<br>
 npm run dev<br>
 
