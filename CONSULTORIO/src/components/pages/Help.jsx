@@ -1,7 +1,7 @@
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Btn from '../button/Btn';
+import Btn from '../button/Btn-outline';
 import CardItem from '../card/Card';
 
 function Help() {
@@ -34,7 +34,7 @@ function Help() {
 
                             </div>
 
-                            <Btn frase="Agenda uma consulta online" />
+                            <Btn style={{backgroundColor: '#235D5D', color: 'black' }} frase="Agenda uma consulta online" />
                         </div>
                     </div>
                 </Col>
