@@ -268,3 +268,13 @@ img {
 }
 
 /* ------ FIM DO SOBRE ------- */
+
+/*Formulário*/
+.form {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100vw;
+    height: 100vw;
+    display: flex;
+    justify-content: center;
+    background-color: #f2f2f2;
+}
