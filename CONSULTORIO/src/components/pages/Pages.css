@@ -334,5 +334,46 @@ img {
     
 }
 
+/* Media queries para dispositivos com menos de 575px de tela */
+
+@media (max-width: 575px) {
+
+    .help-full-content {
+        height: 140vh;
+    }
+
+    .help-h4 {
+        margin-top: 10%;
+      font-size: 16px;
+      text-align: center;
+      position: relative;
+      /* centraliza o texto */
+      padding-bottom: 10px;
+      /* adiciona espaço para a linha */
+    }
+  
+    .help-content h4 {
+      margin: 9% 0 6% 0;
+      text-align: center;
+    }
+  
+    .help-btn {
+      margin-top: 3%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .help-card-itens {
+      width: 90%;
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      justify-items: center;
+      grid-gap: 5px;
+      margin: 10px 0;
+      margin: auto;
+    }
+  }
+
 
 /* ------ FIM DO HELP ------- */
