@@ -28,19 +28,21 @@ function Sobre() {
                             </p>
                         </div>
                         <div className="sobre-container-item sobre-dois">
-                            <img className='sobre-img' src="https://mediflix.com.br/wp-content/uploads/2020/03/7781-scaled-1.jpg" alt="" />
+                            <img className='sobre-img' src="./assets/img44.jpg" alt="" />
                         </div>
                     </div>
 
                     <div className="sobre-container segundo">
 
                     <div className="sobre-container-item cont2 sobre-um hided">
-                            <h2>Formação:</h2>
+                            <h2>Especialista:</h2>
                             <ul className="lista-formacao">
-                                <li className="lista-itens">Sou um item. ​Clique aqui para me editar.</li>
-                                <li className="lista-itens">Sou um item. ​Clique aqui para me editar.</li>
-                                <li className="lista-itens">Sou um item. ​Clique aqui para me editar.</li>
-                                <li className="lista-itens">Sou um item. ​Clique aqui para me editar.</li>
+                                <li className="lista-itens"> Clínico Geral </li>
+                                <li className="lista-itens"> Pediatra </li>
+                                <li className="lista-itens"> Psicólogo </li>
+                                <li className="lista-itens"> Nutricionista </li>
+                                <li className="lista-itens"> Ginecologista </li>
+
                             </ul>
                         </div>
 
@@ -49,12 +51,13 @@ function Sobre() {
                         </div>
 
                         <div className="sobre-container-item cont2 sobre-um show">
-                            <h2>Formação:</h2>
+                            <h2>Especialista:</h2>
                             <ul className="lista-formacao">
-                                <li className="lista-itens">Sou um item. ​Clique aqui para me editar.</li>
-                                <li className="lista-itens">Sou um item. ​Clique aqui para me editar.</li>
-                                <li className="lista-itens">Sou um item. ​Clique aqui para me editar.</li>
-                                <li className="lista-itens">Sou um item. ​Clique aqui para me editar.</li>
+                                <li className="lista-itens"> Clínico Geral </li>
+                                <li className="lista-itens"> Pediatra </li>
+                                <li className="lista-itens"> Psicólogo </li>
+                                <li className="lista-itens"> Nutricionista </li>
+                                <li className="lista-itens"> Ginecologista </li>
                             </ul>
                         </div>
 
