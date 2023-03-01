@@ -107,6 +107,14 @@ img {
 /* ------ SOBRE ------- */
 
 
+.sobre-full-content {
+    width: 100%;
+}
+
+.primeiro {
+    height: 100vh;
+}
+
 .sobre-h4 {
     font-size: 18px;
     margin-top: 2%;
@@ -134,16 +142,10 @@ img {
     /* cor da linha */
 }
 
-.col-itself-sobre {
-    height: 100vh;
-}
-
 .sobre-container {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-bottom: 5%;
-
 }
 
 .sobre-container-item {
@@ -176,9 +178,11 @@ img {
 }
 
 .cont2 {
-    padding: 30px;
-    margin-top: 5%;
-    height: 100vh;
+    padding: 30px; 
+}
+
+.segundo {
+    height: 60vh;
 }
 
 
@@ -207,13 +211,17 @@ img {
 /* Dispositivos móveis com largura menor que 576px */
 @media (max-width: 575px) {
 
-    .col-itself-sobre {
+    .primeiro {
         padding-top: 30%;
+    }
+
+    .segundo {
+        padding-top: 50%;
+        padding-bottom: 160%;
     }
 
     .sobre-container {
         flex-direction: column;
-        
     }
 
     .sobre-container-item {
@@ -230,11 +238,6 @@ img {
         width: 80%;
     }
 
-
-    .segundo {
-        height: 100vh;
-    }
-
     .cont2 {
         padding: 10px;
         margin-top: 5%;
@@ -243,10 +246,6 @@ img {
     .sobre-img, .C2-sobre-img {
         width: 100%;
         height: auto;
-    }
-
-    .C2-sobre-img {
-        width: 100%;
     }
 
     .hided {
@@ -265,10 +264,53 @@ img {
         margin: auto;
     }
 
-    .cont2-2 {
-        display: none;
-    }
 
 }
 
 /* ------ FIM DO SOBRE ------- */
+
+
+
+/* ------ HELP ------- */
+
+
+.help-full-content{
+    background-color: var(--cor-principal);
+    color: var(--cor-complementar);
+    /* height: 100vh; */
+}
+
+
+.help-h4 {
+    font-size: 18px;
+    margin-top: 2%;
+    text-align: center;
+    position: relative;
+    /* centraliza o texto */
+    padding-bottom: 10px;
+    /* adiciona espaço para a linha */
+
+}
+
+.help-h4::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    /* posiciona a metade da largura */
+    transform: translateX(-50%);
+    /* centraliza a linha */
+    width: 50px;
+    /* largura da linha */
+    height: 3px;
+    /* altura da linha */
+    background-color: var(--cor-complementar)
+    /* cor da linha */
+}
+
+.help-card-itens {
+    display: flex;
+    justify-content: space-around;
+
+}
+

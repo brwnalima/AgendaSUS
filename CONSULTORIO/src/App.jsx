@@ -2,6 +2,7 @@ import Menu from './components/navbar/Navbar'
 import Home from './components/pages/Home'
 import './App.css'
 import Sobre from './components/pages/Sobre'
+import Help from './components/pages/Help'
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
       <Menu />
       <Home />
       <Sobre />
+      <Help />
     </div>
   )
 }
