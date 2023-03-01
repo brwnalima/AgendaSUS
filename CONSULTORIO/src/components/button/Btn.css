@@ -21,3 +21,15 @@
     scale: 1.1;
     transition: 0.5s ease-in-out!important;
 }
+
+.botao-outline {
+    background-color: var(--cor-complementar);
+    color: var(--cor-principal);
+}
+
+.botao-outline:hover {
+    background-color: var(--cor-branca);
+    color: var(--cor-principal);
+    scale: 1.1;
+    transition: 0.5s ease-in-out!important;
+}

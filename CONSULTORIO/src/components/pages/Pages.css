@@ -311,17 +311,28 @@ img {
 }
 
 .help-content h4 {
-    padding-top: 10%;
+    margin: 4% 0 4% 0;
     text-align: center;
 }
 
+.help-btn {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
 
 .help-card-itens {
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 5%;
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    grid-gap: 5px;
+    margin: 10px 0;
+    margin: auto;
+    
 }
 
-.card-item {
-   margin: auto;
-}
+
+/* ------ FIM DO HELP ------- */

@@ -4,6 +4,7 @@ import Col from 'react-bootstrap/Col';
 import Btn from '../button/Btn-outline';
 import CardItem from '../card/Card';
 
+
 function Help() {
     return (
         <Container fluid className="help-full-content">
@@ -34,7 +35,9 @@ function Help() {
 
                             </div>
 
-                            <Btn style={{backgroundColor: '#235D5D', color: 'black' }} frase="Agenda uma consulta online" />
+                            <div className="help-btn">
+                                <Btn frase="Agenda uma consulta online" />
+                            </div>
                         </div>
                     </div>
                 </Col>
