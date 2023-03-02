@@ -1,8 +1,9 @@
 import Navbar from '../components/navbar/Navbar'
-import Home from '../components/Home'
-import Sobre from '../components/Sobre'
-import Help from '../components/Help'
-import FourthGrid from '../components/FourthGrid'
+import Home from './grids/Home'
+import Sobre from './grids/Sobre'
+import Help from './grids/Help'
+import FourthGrid from './grids/FourthGrid'
+import FifthGrid from './grids/FifthGrid'
 
 function Inicio() {
     return (
@@ -12,6 +13,7 @@ function Inicio() {
             <Sobre />
             <Help />
             <FourthGrid/>
+            <FifthGrid />
 
         </>
     );

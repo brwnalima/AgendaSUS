@@ -3,12 +3,12 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import './Pages.css'
-import Btn from './button/Btn';
+import Btn from '../../components/button/Btn';
 import { Fade } from "react-awesome-reveal";
 
 function FourthGrid() {
     return (
-        <Container fluid className='sobre-full-content fourthgrid-fullcontent'>
+        <Container fluid className='sobre-full-content fourthgrid-fullcontent' id='seguros'>
             <Fade cascade duration={4000} damping={0.1}>
                 <Row>
                     <Col className='col-itself-sobre'>

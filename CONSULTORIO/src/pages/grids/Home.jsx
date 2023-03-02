@@ -2,13 +2,13 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import './Pages.css'
-import Btn from './button/Btn';
+import Btn from '../../components/button/Btn';
 import { Zoom } from "react-awesome-reveal";
 
 
 function Home() {
     return (
-      <Container fluid className="full-width-container">
+      <Container fluid className="full-width-container" id='home'>
 
         <Row className='container-row'>
           <Col sm={8}className='col-itself c1'>

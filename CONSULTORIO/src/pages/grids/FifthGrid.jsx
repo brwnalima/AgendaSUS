@@ -3,12 +3,12 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Form from 'react-bootstrap/Form';
 import './Pages.css'
-import Btn from '../button/Btn';
+import Btn from '../../components/button/Btn';
 import { Zoom } from "react-awesome-reveal";
 
 function FifthGrid() {
     return (
-        <Container fluid className="full-width-container content-5grid">
+        <Container fluid className="full-width-container content-5grid" id='contato'>
 
             <Row className='container-row'>
                 <Col sm={5} className='col-itself c1 c1-5grid'>
