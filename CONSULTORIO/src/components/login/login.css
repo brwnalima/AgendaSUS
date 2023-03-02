@@ -4,10 +4,9 @@
 		color:#6a6f8c;
 		background:#c8c8c8;
 		font:600 16px/18px 'Open Sans',sans-serif;
-		background:url(https://images.unsplash.com/photo-1507208773393-40d9fc670acf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1268&q=80) no-repeat center;
-	
+		background:url(https://magportaisinststgprd.blob.core.windows.net/magblog/2021/10/medico-online-como-funciona-3000x1573.jpg) no-repeat center;
+		background-size: cover;
 		
-	
 }
 
 .login-box{
@@ -16,7 +15,6 @@
 	max-width:525px;
 	min-height:670px;
 	position:relative;
-	background:url(https://images.unsplash.com/photo-1507208773393-40d9fc670acf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1268&q=80) no-repeat center;
 	box-shadow:0 12px 15px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19);
 }
 .login-snip{
@@ -62,7 +60,7 @@
 .login-snip .sign-up:checked + .tab,
 .login-snip .forgot-pass:checked + .tab{
 	color:#fff;
-	border-color:#1161ee;
+	border-color:#d8efed;
 }
 .login-space{
 	min-height:345px;
@@ -84,9 +82,16 @@
 .login-space .group .button{
 	border:none;
 	padding:15px 20px;
-	border-radius:25px;
+	border-radius:2px;
 	background:rgba(255,255,255,.1);
 }
+
+.button:hover{
+	background-color: white;
+	scale: 1.1;
+	transition: 0.4s ease-in-out;
+}
+
 .login-space .group input[data-type="password"]{
 	text-security:circle;
 	-webkit-text-security:circle;
@@ -96,7 +101,8 @@
 	font-size:12px;
 }
 .login-space .group .button{
-	background:#1161ee;
+	background:#d8efed;
+	color:#064848;
 }
 .login-space .group label .icon{
 	width:15px;
