@@ -17,7 +17,7 @@ function FourthGrid() {
                             <div className="sobre-container-item cont2 sobre-dois cont2-img">
                                 <img className='fourthgrid-img' src="https://static.wixstatic.com/media/503ea4_6ea610bb87ae47888a88f28669194f2e~mv2.jpg/v1/crop/x_500,y_0,w_2000,h_2000/fill/w_384,h_384,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/background-blank-business-composition-58.jpg" alt="" />
                             </div>
-                            <div className="sobre-container-item cont2 sobre-um fourthgrid-textcontent">
+                            <div className="sobre-container-item cont2 sobre-um">
                                 <h3>Quase todos os planos de saúde são aceitos</h3>
 
                                 <p>

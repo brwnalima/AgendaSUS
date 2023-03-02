@@ -422,7 +422,7 @@ img {
 
 @media (max-width: 575px) {
     .fourthgrid-fullcontent {
-        height: auto;
+        height: 120vh;
     }
 
     .fourthgrid-content {
