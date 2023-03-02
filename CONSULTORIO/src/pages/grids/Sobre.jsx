@@ -31,7 +31,7 @@ function Sobre() {
                                     </p>
                                 </div>
                                 <div className="sobre-container-item sobre-dois">
-                                    <img className='sobre-img' src="https://mediflix.com.br/wp-content/uploads/2020/03/7781-scaled-1.jpg" alt="" />
+                                    <img className='sobre-img' src="https://medicinasa.com.br/wp-content/uploads/2021/03/medicos-networking-medica2.jpg" alt="" />
                                 </div>
                             </div>
                         </div>
@@ -48,7 +48,7 @@ function Sobre() {
                                     </ul>
                                 </div>
                                 <div className="sobre-container-item cont2 sobre-dois cont2-img">
-                                    <img className='C2-sobre-img' src="https://d2dxldo5hhj2zu.cloudfront.net/img/674x,jpeg/https://d3043uog1ad1l6.cloudfront.net/uploads/2021/06/pos-graduacao.jpg" alt="" />
+                                    <img className='C2-sobre-img' src="./assets/est.jpg" alt="" />
                                 </div>
                                 <div className="sobre-container-item cont2 sobre-um show">
                                     <h2>Formação:</h2>

@@ -316,7 +316,7 @@ img {
 }
 
 .help-btn {
-    margin-top: 5%;
+    margin-top: 2%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -428,20 +428,11 @@ img {
 }
 
 .fourthgrid-img {
-    width: 50%;
-    height: 40%;
-    border: 15px solid var(--cor-complementar);
-    border-radius: 10px;
+    width: 70%;
+    height: 50%;
     border-left: none;
     border-bottom: none;
     transition: 0.5s ease-in-out;
-}
-
-.fourthgrid-img:hover {
-    border: 15px solid var(--cor-complementar);
-    border-right: none;
-    border-top: none;
-    transition: 1s ease-in-out;
 }
 
 .fourthgrid-textcontent {
