@@ -27,13 +27,13 @@ function Login() {
                     <label htmlFor="check"><span className="icon"></span> Lembrar-me</label>
                   </div>
                   <div className="group">
-                    <input type="submit" className="button" value="Sign In" />
+                    <input type="submit" className="button" value="Login" />
                   </div>
                   <div className="hr"></div>
                   <div className="foot">
-                  <input id="tab-3" type="radio" name="tab" className="forgot-pass" />
+                    <input id="tab-3" type="radio" name="tab" className="forgot-pass" />
                     <label htmlFor="tab-3" className="tab">Esqueceu sua senha?</label>
-                    
+
                   </div>
                 </div>
                 <div className="sign-up-form">
@@ -54,7 +54,20 @@ function Login() {
                     <input id="pass" type="text" className="input" placeholder="Digite seu Email" />
                   </div>
                   <div className="group">
-                    <input type="submit" className="button" value="Sign Up" />
+                    <input type="submit" className="button" value="Cadastre-se" />
+                  </div>
+                  <div className="hr"></div>
+                  <div className="foot">
+                    <label htmlFor="tab-1">Ja tenho conta</label>
+                  </div>
+                </div>
+                <div className="forgot-pass-form">
+                  <div className="group">
+                    <label htmlFor="pass" className="label">Email</label>
+                    <input id="pass" type="text" className="input" placeholder="Digite seu Email" />
+                  </div>
+                  <div className="group">
+                    <input type="submit" className="button" value="Enviar" />
                   </div>
                   <div className="hr"></div>
                   <div className="foot">

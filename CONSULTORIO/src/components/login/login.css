@@ -23,7 +23,8 @@ body{
 	background:rgba(0, 77, 77,.9);
 }
 .login-snip .login,
-.login-snip .sign-up-form{
+.login-snip .sign-up-form,
+.login-snip .forgot-pass-form{
 	top:0;
 	left:0;
 	right:0;
@@ -33,8 +34,11 @@ body{
 	backface-visibility:hidden;
 	transition:all .4s linear;
 }
+
+ 
 .login-snip .sign-in,
 .login-snip .sign-up,
+.login-snip .forgot-pass,
 .login-space .group .check{
 	display:none;
 }
@@ -51,7 +55,8 @@ body{
 	border-bottom:2px solid transparent;
 }
 .login-snip .sign-in:checked + .tab,
-.login-snip .sign-up:checked + .tab{
+.login-snip .sign-up:checked + .tab,
+.login-snip .forgot-pass:checked + .tab{
 	color:#fff;
 	border-color:#1161ee;
 }
@@ -129,12 +134,16 @@ body{
 .login-space .group .check:checked + label .icon:after{
 	transform:scale(1) rotate(-45deg);
 }
+.login-snip .forgot-pass:checked + .login-space + .forgot-pass-form{
+	transform:rotate(0);
+}
 .login-snip .sign-in:checked + .tab + .sign-up + .tab + .login-space .login{
 	transform:rotate(0);
 }
 .login-snip .sign-up:checked + .tab + .login-space .sign-up-form{
 	transform:rotate(0);
 }
+
 
 *,:after,:before{box-sizing:border-box}
 .clearfix:after,.clearfix:before{content:'';display:table}
@@ -159,6 +168,19 @@ a{color:inherit;text-decoration:none}
 color: #b3b3b3;
 } 
 
-.login-snip .forgot-pass .group input[type="text"]::placeholder {
-	content: "email";
-  }
+  @media screen and (max-width: 768px) {
+	.login-box {
+	max-width: 100%;
+	margin-inline: 10px;
+	}
+	.login-snip {
+	padding: 50px;
+	
+	}
+	.card {
+	width: 100%;
+	margin-top: 5px;
+	
+	left: 0;
+	}
+	}
