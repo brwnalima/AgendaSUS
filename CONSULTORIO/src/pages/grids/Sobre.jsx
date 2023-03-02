@@ -8,7 +8,7 @@ import { Fade } from "react-awesome-reveal";
 function Sobre() {
     return (
 
-        <Container fluid className='sobre-full-content'>
+        <Container fluid className='sobre-full-content' id="sobre">
             <Fade cascade duration={4000} damping={0.1}>
                 <Row>
                     <Col className='col-itself-sobre'>
