@@ -4,10 +4,11 @@ import Col from 'react-bootstrap/Col';
 import Form from 'react-bootstrap/Form';
 import './Pages.css'
 import Btn from '../button/Btn';
+import { Zoom } from "react-awesome-reveal";
 
 function FifthGrid() {
     return (
-        <Container fluid className="full-width-container">
+        <Container fluid className="full-width-container content-5grid">
 
             <Row className='container-row'>
                 <Col sm={5} className='col-itself c1 c1-5grid'>
@@ -18,36 +19,40 @@ function FifthGrid() {
                         <p>Domingo: Fechado</p>
                     </div>
                 </Col>
+                
                 <Col sm={7} className='col-itself c2 c2-5grid'>
                     <div className="c2-5grid-text">
                         <h4>Tem dúvidas?</h4>
                         <p>Deixe uma mensagem!</p>
                     </div>
 
+
                     <Form className='form-5grid'>
-                        <Row className="mb-3">
-                            <Form.Group as={Col} className='form-5grid-nome' controlId="formGridNome">
-                                <Form.Label>Nome</Form.Label>
-                                <Form.Control className='form-control-5grid' type="nome" placeholder="Digite seu nome" />
+
+                        <Zoom>
+                            <Row className="mb-3">
+                                <Form.Group as={Col} className='form-5grid-nome' controlId="formGridNome">
+                                    <Form.Label>Nome</Form.Label>
+                                    <Form.Control className='form-control-5grid' type="nome" placeholder="Digite seu nome" />
+                                </Form.Group>
+                                <Form.Group as={Col} className='form-5grid-sobrenome' controlId="formGridSobrenome">
+                                    <Form.Label>Sobrenome</Form.Label>
+                                    <Form.Control className='form-control-5grid' type="sobrenome" placeholder="Digite sua senha" />
+                                </Form.Group>
+                            </Row>
+                            <Form.Group className="mb-3" controlId="formGroupEmail">
+                                <Form.Label>Email</Form.Label>
+                                <Form.Control className='form-control-5grid' type="email" placeholder="bruna@gmail.com" />
                             </Form.Group>
-
-                            <Form.Group as={Col} className='form-5grid-sobrenome' controlId="formGridSobrenome">
-                                <Form.Label>Sobrenome</Form.Label>
-                                <Form.Control className='form-control-5grid' type="sobrenome" placeholder="Digite sua senha" />
+                            <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
+                                <Form.Label>Insira sua mensagem</Form.Label>
+                                <Form.Control className='form-control-5grid' as="textarea" rows={3} />
                             </Form.Group>
-                        </Row>
+                        </Zoom>
 
-                        <Form.Group className="mb-3" controlId="formGroupEmail">
-                            <Form.Label>Email</Form.Label>
-                            <Form.Control className='form-control-5grid' type="email" placeholder="bruna@gmail.com" />
-                        </Form.Group>
-
-                        <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-                            <Form.Label>Insira sua mensagem</Form.Label>
-                            <Form.Control className='form-control-5grid' as="textarea" rows={3} />
-                        </Form.Group>
-
-                        <div className='c2-btn btn-5grid'><Btn frase="Enviar" /></div>
+                        <Zoom>
+                            <div className='c2-btn btn-5grid'><Btn frase="Enviar" /></div>
+                        </Zoom>
                     </Form>
 
                     <div className="footer-5grid">

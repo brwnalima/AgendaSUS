@@ -486,11 +486,11 @@ img {
 }
 
 .form-5grid-nome {
-    padding-left: 0!important;
+    padding-left: 0 !important;
 }
 
 .form-5grid-sobrenome {
-    padding-right: 0!important;
+    padding-right: 0 !important;
 }
 
 .btn-5grid {
@@ -512,7 +512,7 @@ img {
     margin-top: 60px;
     margin-left: 180px;
     padding-bottom: 50px;
-    
+
 }
 
 .footer-5grid p {
@@ -523,6 +523,40 @@ img {
 
 #pp-5grid {
     margin-bottom: 15px;
+}
+
+/* Media queries para dispositivos com menos de 575px de tela */
+
+@media (max-width: 575px) {
+
+    .c2-5grid {
+        height: 120vh;
+    }
+
+    .c1-5grid-text {
+        margin: 50px 0 0 50px;
+    }
+
+    .c2-5grid-text {
+        margin: 50px 0 0 50px;
+    }
+
+    .mb-3 {
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .btn-5grid {
+        margin: 30px auto;
+        text-align: center;
+    }
+
+    .footer-5grid {
+        margin-left: 50px;
+        padding-bottom: 30px;
+        text-align: center;
+    }
 }
 
 
