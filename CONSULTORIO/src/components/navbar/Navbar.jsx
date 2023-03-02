@@ -9,7 +9,7 @@ function Menu() {
   return (
     <Navbar collapseOnSelect className='navbar-content' expand="lg" variant="dark">
       <Container>
-        <Navbar.Brand href="#home">Agenda SUS</Navbar.Brand>
+        <Navbar.Brand href="/">Agenda SUS</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
@@ -29,7 +29,7 @@ function Menu() {
           </Nav>
           <Nav>
             <Nav.Link href="#deets">Contato</Nav.Link>
-            <Nav.Link eventKey={2} href="#">
+            <Nav.Link eventKey={2} href="/login">
               Login
             </Nav.Link>
           </Nav>
