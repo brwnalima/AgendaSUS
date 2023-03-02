@@ -5,7 +5,7 @@ function Btn(props) {
   
   return (
     <>
-      {' '} <Button href="#" size="lg" variant="outline-success" className='botao'>{props.frase}</Button>{' '}
+      {' '} <Button href="#" variant="outline-success" className='botao'>{props.frase}</Button>{' '}
     </>
   );
 }

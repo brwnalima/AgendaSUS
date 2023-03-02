@@ -2,7 +2,9 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import './Pages.css'
-import Btn from './button/Btn';
+import Btn from '../button/Btn';
+import { Zoom } from "react-awesome-reveal";
+
 
 function Home() {
     return (
@@ -18,7 +20,9 @@ function Home() {
               <h1>Dra. Alice Sá</h1>
               <h4>Serviços médicos online</h4>
             </div>
-            <div className='c2-btn'><Btn frase="Saiba Mais" buttonSty/></div>
+            <Zoom>
+              <div className='c2-btn'><Btn frase="Saiba Mais"/></div>
+            </Zoom>
           </Col>
         </Row>
       </Container>

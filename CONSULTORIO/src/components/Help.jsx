@@ -1,8 +1,9 @@
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Btn from './button/Btn-outline';
-import CardItem from './card/Card';
+import Btn from '../button/Btn-outline';
+import CardItem from '../card/Card';
+import { Slide } from "react-awesome-reveal";
 
 
 function Help() {
@@ -17,21 +18,29 @@ function Help() {
 
                             <div className="help-card-itens">
 
-                                <div className="card-item">
-                                    <CardItem title='1' text='Exame de Sangue' className='card-itself' />
-                                </div>
+                                <Slide direction={'left'}>
+                                    <div className="card-item">
+                                        <CardItem title='1' text='Exame de Sangue' className='card-itself' />
+                                    </div>
+                                </Slide>
 
-                                <div className="card-item">
-                                    <CardItem title='2' text='Saúde em geral' className='card-itself'/>
-                                </div>
+                                <Slide direction={'right'}>
+                                    <div className="card-item">
+                                        <CardItem title='2' text='Saúde em geral' className='card-itself'/>
+                                    </div>
+                                </Slide>
                             
-                                <div className="card-item">
-                                    <CardItem title='3' text='Saúde mental'  className='card-itself'/>
-                                </div>
+                                <Slide direction={'left'}>
+                                    <div className="card-item">
+                                        <CardItem title='3' text='Saúde mental'  className='card-itself'/>
+                                    </div>
+                                </Slide>
 
-                                <div className="card-item">
-                                    <CardItem title='4' text='Preveção e bem-estar' className='card-itself'/>
-                                </div>
+                                <Slide direction={'right'}>
+                                    <div className="card-item">
+                                        <CardItem title='4' text='Preveção e bem-estar' className='card-itself'/>
+                                    </div>
+                                </Slide>
 
                             </div>
 
