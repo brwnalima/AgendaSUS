@@ -14,38 +14,38 @@ function Help() {
                     <div>
                         <h4 className='help-h4'>Como posso ajudar?</h4>
                         <div className="help-content">
-                            <h4>Serviços online</h4>
+                            <h4>Serviços oferecidos</h4>
 
                             <div className="help-card-itens">
 
                                 <Slide direction={'left'}>
                                     <div className="card-item">
-                                        <CardItem title='1' text='Exame de Sangue' className='card-itself' />
+                                        <CardItem title='1' text='Consultas médicas em diversas especialidades' className='card-itself' />
                                     </div>
                                 </Slide>
 
                                 <Slide direction={'right'}>
                                     <div className="card-item">
-                                        <CardItem title='2' text='Saúde em geral' className='card-itself'/>
+                                        <CardItem title='2' text='Exames laboratoriais e de imagem' className='card-itself'/>
                                     </div>
                                 </Slide>
                             
                                 <Slide direction={'left'}>
                                     <div className="card-item">
-                                        <CardItem title='3' text='Saúde mental'  className='card-itself'/>
+                                        <CardItem title='3' text='Tratamentos fisioterápicos'  className='card-itself'/>
                                     </div>
                                 </Slide>
 
                                 <Slide direction={'right'}>
                                     <div className="card-item">
-                                        <CardItem title='4' text='Preveção e bem-estar' className='card-itself'/>
+                                        <CardItem title='4' text='Acompanhamento nutricional' className='card-itself'/>
                                     </div>
                                 </Slide>
 
                             </div>
 
                             <div className="help-btn">
-                                <Btn frase="Agenda uma consulta online" />
+                                <Btn frase="Agende seu atendimento" />
                             </div>
                         </div>
                     </div>
