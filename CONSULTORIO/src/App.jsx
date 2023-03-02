@@ -4,6 +4,7 @@ import './App.css'
 import Sobre from './components/pages/Sobre'
 import Help from './components/pages/Help'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
+import FourthGrid from './components/pages/FourthGrid'
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
       <Home />
       <Sobre />
       <Help />
+      <FourthGrid />
     </div>
   )
 }
