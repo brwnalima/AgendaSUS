@@ -31,7 +31,9 @@ function Login() {
                   </div>
                   <div className="hr"></div>
                   <div className="foot">
-                    <a href="#">Esqueceu sua Senha?</a>
+                  <input id="tab-3" type="radio" name="tab" className="forgot-pass" />
+                    <label htmlFor="tab-3" className="tab">Esqueceu sua senha?</label>
+                    
                   </div>
                 </div>
                 <div className="sign-up-form">

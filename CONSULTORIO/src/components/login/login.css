@@ -41,7 +41,6 @@ body{
 .login-snip .tab,
 .login-space .group .label,
 .login-space .group .button{
-	text-transform:uppercase;
 }
 .login-snip .tab{
 	font-size:22px;
@@ -159,3 +158,7 @@ a{color:inherit;text-decoration:none}
 ::placeholder{
 color: #b3b3b3;
 } 
+
+.login-snip .forgot-pass .group input[type="text"]::placeholder {
+	content: "email";
+  }
