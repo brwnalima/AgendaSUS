@@ -21,12 +21,12 @@ function Home() {
     <Container fluid className="full-width-container" id='home'>
 
       <Row className='container-row'>
-        <Col sm={8} className='col-itself c1'>
+        <Col sm={7} className='col-itself c1'>
           <Carousel activeIndex={index} onSelect={handleSelect}>
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src="https://www.anchieta.es.gov.br/uploads/files/fotos-noticias/atendimento-medico.jpg"
+                src=".\public\assets\home6.jpg"
                 alt="First slide"
               />
             </Carousel.Item>
@@ -34,7 +34,7 @@ function Home() {
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src="https://www.tribunapr.com.br/wp-content/uploads/2021/07/22120746/Os-brasileiros-tem-a-opcao-para-escapar-dos-reajustes-dos-planos-de-saude-e-ainda-garantir-atendimento-medico-de-qualidade-por-um-preco-acessivel.-970x550.jpg"
+                src=".\public\assets\home3.jpg"
                 alt="Second slide"
               />
             </Carousel.Item>
@@ -42,14 +42,14 @@ function Home() {
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src="http://blanchospital.com.br/blog/wp-content/uploads/2019/02/blanc-01.jpg"
+                src=".\public\assets\home4.jpg"
                 alt="Third slide"
               />
             </Carousel.Item>
 
           </Carousel>
         </Col>
-        <Col sm={4} className='col-itself c2'>
+        <Col sm={5} className='col-itself c2'>
           <div className="c2-text">
             <span>Saúde acessível para todos</span>
             <h1>Dra. Alice Sá</h1>
