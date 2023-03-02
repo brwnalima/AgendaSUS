@@ -28,7 +28,7 @@ function Sobre() {
                             </p>
                         </div>
                         <div className="sobre-container-item sobre-dois">
-                            <img className='sobre-img' src="./assets/img44.jpg" alt="" />
+                            <img className='sobre-img' src="./assets/doctor-kid.jpg" alt="" />
                         </div>
                     </div>
 
@@ -37,27 +37,31 @@ function Sobre() {
                     <div className="sobre-container-item cont2 sobre-um hided">
                             <h2>Especialista:</h2>
                             <ul className="lista-formacao">
+                                <li className="lista-itens"> Cardiologia </li>
                                 <li className="lista-itens"> Clínico Geral </li>
-                                <li className="lista-itens"> Pediatra </li>
-                                <li className="lista-itens"> Psicólogo </li>
-                                <li className="lista-itens"> Nutricionista </li>
-                                <li className="lista-itens"> Ginecologista </li>
+                                <li className="lista-itens"> Ginecologia </li>
+                                <li className="lista-itens"> Nutrição </li>
+                                <li className="lista-itens"> Odontologia </li>
+                                <li className="lista-itens"> Pediatria </li>
+                                <li className="lista-itens"> Psicologia </li>
 
                             </ul>
                         </div>
 
                         <div className="sobre-container-item cont2 sobre-dois cont2-img">
-                            <img className='C2-sobre-img' src="https://d2dxldo5hhj2zu.cloudfront.net/img/674x,jpeg/https://d3043uog1ad1l6.cloudfront.net/uploads/2021/06/pos-graduacao.jpg" alt="" />
+                            <img className='C2-sobre-img' src="./assets/relacao-medico-paciente-1(1).jpg" alt="" />
                         </div>
 
                         <div className="sobre-container-item cont2 sobre-um show">
                             <h2>Especialista:</h2>
                             <ul className="lista-formacao">
+                                <li className="lista-itens"> Cardiologia </li>
                                 <li className="lista-itens"> Clínico Geral </li>
-                                <li className="lista-itens"> Pediatra </li>
-                                <li className="lista-itens"> Psicólogo </li>
-                                <li className="lista-itens"> Nutricionista </li>
-                                <li className="lista-itens"> Ginecologista </li>
+                                <li className="lista-itens"> Ginecologia </li>
+                                <li className="lista-itens"> Nutrição </li>
+                                <li className="lista-itens"> Odontologia </li>
+                                <li className="lista-itens"> Pediatria </li>
+                                <li className="lista-itens"> Psicologia </li>
                             </ul>
                         </div>
 
