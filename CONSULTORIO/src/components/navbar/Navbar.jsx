@@ -15,8 +15,8 @@ function Menu() {
           <Nav className="me-auto">
             <Nav.Link href="/#sobre">Sobre</Nav.Link>
             <Nav.Link href="/#help">Serviços</Nav.Link>
-            <NavDropdown title="Seguros" id="collasible-nav-dropdown">
-              <NavDropdown.Item href="#seguros">Especialistas</NavDropdown.Item>
+            <NavDropdown title="Consultas" id="collasible-nav-dropdown">
+              <NavDropdown.Item href="#seguros">Como funciona?</NavDropdown.Item>
             </NavDropdown>
           </Nav>
           <Nav>

@@ -19,15 +19,12 @@ function FourthGrid() {
                                     <img className='fourthgrid-img' src="./assets/fourthgridUm.webp" alt="" />
                                 </div>
                                 <div className="sobre-container-item cont2 sobre-um">
-                                    <h3>Quase todos os planos de saúde são aceitos</h3>
-                                    <p>
-                                        Sou um parágrafo. Aqui você pode adicionar e editar seu próprio texto.
-                                        Basta clicar em "Editar texto" ou clicar duas vezes sobre mim.
-                                        Você também pode alterar a fonte e mais.
-                                        Sou um ótimo lugar para você compartilhar a sua história.
+                                    <h3>Facilidade & Praticidade</h3>
+                                    <p> A Agenda SUS é a forma mais prática e eficiente de garantir o atendimento médico que você precisa. 
+                                        Em nosso site, você pode agendar sua consulta de forma simples e personalizada, adequando a data e horário de acordo com suas necessidades. Além disso, durante o processo de agendamento, solicitamos apenas algumas informações pessoais para garantir a eficácia do atendimento.
                                     </p>
                                     <div className="fourthgrid-btn">
-                                        <Btn frase='Baixar formulário do paciente'/>
+                                        <Btn frase='Agende agora'/>
                                     </div>
                                 </div>
                             </div>

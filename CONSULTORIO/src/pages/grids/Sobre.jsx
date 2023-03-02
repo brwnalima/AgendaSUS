@@ -16,7 +16,7 @@ function Sobre() {
                             <h4 className='sobre-h4'>Sobre</h4>
                             <div className="sobre-container">
                                 <div className="sobre-container-item sobre-um">
-                                    <h2>Sobre a Dra. Alice Sá</h2>
+                                    <h2>Sobre Nós</h2>
                                     <p>Nossa clínica médica pública oferece atendimento completo e acessível para toda a população do país.
                                         Desde consultas médicas simples até transplante de órgãos, nosso objetivo é garantir que todos tenham acesso gratuito e integral aos cuidados de saúde que precisam.
                                     </p>
