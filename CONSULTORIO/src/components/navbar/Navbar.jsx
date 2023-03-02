@@ -13,8 +13,8 @@ function Menu() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#">Sobre</Nav.Link>
-            <Nav.Link href="#pricing">Serviços</Nav.Link>
+            <Nav.Link eventKey={4} href="/#sobre">Sobre</Nav.Link>
+            <Nav.Link eventKey={5} href="/#help">Serviços</Nav.Link>
             <NavDropdown title="Seguros" id="collasible-nav-dropdown">
               <NavDropdown.Item href="#">Action</NavDropdown.Item>
               <NavDropdown.Item href="#">

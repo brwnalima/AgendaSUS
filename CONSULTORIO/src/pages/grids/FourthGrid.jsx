@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import './Pages.css'
-import Btn from '../button/Btn';
+import Btn from './button/Btn';
 import { Fade } from "react-awesome-reveal";
 
 function FourthGrid() {
