@@ -71,7 +71,7 @@ const Form2 = ({ getPacientes, onEdit, setOnEdit }) => {
 
     if (onEdit) {
       await axios
-        .put("http://localhost:5000" + onEdit.id, {
+        .put("http://localhost:5000/" + onEdit.id, {
           nome: paciente.nome.value,
           cpf: paciente.cpf.value,
           telefone: paciente.telefone.value,

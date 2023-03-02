@@ -57,6 +57,24 @@ const Grid = ({ pacientes, setPacientes, setOnEdit }) => {
 
     setOnEdit(null);
   };
+  const handleUpdate = async (id, updatedInfo) => {
+    await axios
+      .put("http://localhost:5000/" + id, updatedInfo)
+      .then(({ data }) => {
+        const newArray = pacientes.map((paciente) => {
+          if (paciente.id === id) {
+            return { ...paciente, ...updatedInfo };
+          }
+          return paciente;
+        });
+  
+        setPacientes(newArray);
+        toast.success(data);
+      })
+      .catch(({ data }) => toast.error(data));
+  
+    setOnEdit(null);
+  };
 
   return (
     <Table>
