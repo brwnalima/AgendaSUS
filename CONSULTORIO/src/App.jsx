@@ -1,16 +1,15 @@
 import Menu from './components/navbar/Navbar'
 import Home from './components/pages/Home'
-import './App.css'
 import Sobre from './components/pages/Sobre'
-import Login from './components/login/login'
+import './App.css'
 
 function App() {
 
   return (
     <div className="App">
-      <Menu/>
-      <Login/>
-      
+      <Menu />
+      <Home />
+      <Sobre />
     </div>
   )
 }
