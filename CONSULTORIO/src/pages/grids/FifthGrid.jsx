@@ -62,8 +62,8 @@ function FifthGrid() {
 
                         <p id='pp-5grid'>Política de Privacidade</p>
 
-                        <p>© 2035 por Dra. Alice Sá.</p>
-                        <p>Orgulhosamente criado com Wix.com</p>
+                        <p>© 2023 por Tech Solution Ltda</p>
+                        <p>Orgulhosamente criado para o módulo 6</p>
                     </div>
 
 
