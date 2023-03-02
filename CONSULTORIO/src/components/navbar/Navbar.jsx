@@ -4,6 +4,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Navbar.css'
+import { BiUserCircle } from 'react-icons/bi'
 
 function Menu() {
   return (
@@ -22,7 +23,7 @@ function Menu() {
           <Nav>
             <Nav.Link href="/#contato">Contato</Nav.Link>
             <Nav.Link eventKey={2} href="/login">
-              Login
+              Login <BiUserCircle/>
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
