@@ -26,7 +26,7 @@ function Home() {
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src="./assets/home6.jpg"
+                src="https://www.consultare.com.br/wp-content/uploads/2022/08/Imagem-11.png"
                 alt="First slide"
               />
             </Carousel.Item>
@@ -34,7 +34,7 @@ function Home() {
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src="./assets/home3.jpg"
+                src="https://blog.leucotron.com.br/wp-content/uploads/2018/08/original-d471b5895b03ae7a21d6b1e59fcd4790.jpg"
                 alt="Second slide"
               />
             </Carousel.Item>
