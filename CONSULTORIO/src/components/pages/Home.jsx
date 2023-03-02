@@ -18,7 +18,7 @@ function Home() {
               <h1>Dra. Alice Sá</h1>
               <h4>Serviços médicos online</h4>
             </div>
-            <div className='c2-btn'><Btn frase="Saiba Mais"/></div>
+            <div className='c2-btn'><Btn frase="Saiba Mais" buttonSty/></div>
           </Col>
         </Row>
       </Container>

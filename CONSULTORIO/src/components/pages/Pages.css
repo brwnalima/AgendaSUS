@@ -58,6 +58,10 @@ img {
     margin-left: 10%;
 }
 
+.lista-formacao {
+    list-style: none;
+}
+
 /* Dispositivos móveis com largura menor que 576px */
 @media (max-width: 575.98px) {
 
@@ -103,6 +107,14 @@ img {
 /* ------ SOBRE ------- */
 
 
+.sobre-full-content {
+    width: 100%;
+}
+
+.primeiro {
+    height: 100vh;
+}
+
 .sobre-h4 {
     font-size: 18px;
     margin-top: 2%;
@@ -130,16 +142,10 @@ img {
     /* cor da linha */
 }
 
-.col-itself-sobre {
-    height: 100vh;
-}
-
 .sobre-container {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-bottom: 5%;
-
 }
 
 .sobre-container-item {
@@ -173,14 +179,16 @@ img {
 
 .cont2 {
     padding: 30px;
-    margin-top: 5%;
-    height: 100vh;
+}
+
+.segundo {
+    height: 60vh;
 }
 
 
 .C2-sobre-img {
     width: 50%;
-    height: 50%;
+    height: 40%;
     border: 15px solid var(--cor-principal);
     border-radius: 10px;
     border-left: none;
@@ -188,7 +196,8 @@ img {
     transition: 0.5s ease-in-out;
 }
 
-.sobre-img:hover, .C2-sobre-img:hover  {
+.sobre-img:hover,
+.C2-sobre-img:hover {
     border: 15px solid var(--cor-principal);
     border-right: none;
     border-top: none;
@@ -203,13 +212,17 @@ img {
 /* Dispositivos móveis com largura menor que 576px */
 @media (max-width: 575px) {
 
-    .col-itself-sobre {
+    .primeiro {
         padding-top: 30%;
+    }
+
+    .segundo {
+        padding-top: 50%;
+        padding-bottom: 160%;
     }
 
     .sobre-container {
         flex-direction: column;
-        
     }
 
     .sobre-container-item {
@@ -226,23 +239,15 @@ img {
         width: 80%;
     }
 
-
-    .segundo {
-        height: 100vh;
-    }
-
     .cont2 {
         padding: 10px;
         margin-top: 5%;
     }
 
-    .sobre-img, .C2-sobre-img {
-        width: 100%;
-        height: auto;
-    }
-
+    .sobre-img,
     .C2-sobre-img {
         width: 100%;
+        height: auto;
     }
 
     .hided {
@@ -261,10 +266,223 @@ img {
         margin: auto;
     }
 
-    .cont2-2 {
-        display: none;
-    }
 
 }
 
 /* ------ FIM DO SOBRE ------- */
+
+
+
+/* ------ HELP ------- */
+
+
+.help-full-content {
+    background-color: var(--cor-principal);
+    color: var(--cor-complementar);
+    height: 100vh;
+}
+
+
+.help-h4 {
+    font-size: 18px;
+    margin-top: 2%;
+    text-align: center;
+    position: relative;
+    /* centraliza o texto */
+    padding-bottom: 10px;
+    /* adiciona espaço para a linha */
+
+}
+
+.help-h4::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    /* posiciona a metade da largura */
+    transform: translateX(-50%);
+    /* centraliza a linha */
+    width: 50px;
+    /* largura da linha */
+    height: 3px;
+    /* altura da linha */
+    background-color: var(--cor-complementar)
+        /* cor da linha */
+}
+
+.help-content h4 {
+    margin: 4% 0 4% 0;
+    text-align: center;
+}
+
+.help-btn {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.help-card-itens {
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    grid-gap: 5px;
+    margin: 10px 0;
+    margin: auto;
+
+}
+
+/* Media queries para dispositivos com menos de 575px de tela */
+
+@media (max-width: 575px) {
+
+    .help-full-content {
+        height: 140vh;
+    }
+
+    .help-h4 {
+        margin-top: 10%;
+        font-size: 16px;
+        text-align: center;
+        position: relative;
+        /* centraliza o texto */
+        padding-bottom: 10px;
+        /* adiciona espaço para a linha */
+    }
+
+    .help-content h4 {
+        margin: 9% 0 6% 0;
+        text-align: center;
+    }
+
+    .help-btn {
+        margin-top: 3%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .help-card-itens {
+        width: 90%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        grid-gap: 5px;
+        margin: 10px 0;
+        margin: auto;
+    }
+}
+
+/* Media queries para dispositivos com menos de 575px de tela */
+
+@media (max-width: 575px) {
+
+    .help-full-content {
+        height: 140vh;
+    }
+
+    .help-h4 {
+        margin-top: 10%;
+      font-size: 16px;
+      text-align: center;
+      position: relative;
+      /* centraliza o texto */
+      padding-bottom: 10px;
+      /* adiciona espaço para a linha */
+    }
+  
+    .help-content h4 {
+      margin: 9% 0 6% 0;
+      text-align: center;
+    }
+  
+    .help-btn {
+      margin-top: 3%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .help-card-itens {
+      width: 90%;
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      justify-items: center;
+      grid-gap: 5px;
+      margin: 10px 0;
+      margin: auto;
+    }
+  }
+
+
+/* ------ FIM DO HELP ------- */
+
+
+
+/* ------ FourthGrid ------- */
+
+.fourthgrid-fullcontent {
+    height: 100vh;
+}
+
+.fourthgrid-img {
+    width: 50%;
+    height: 40%;
+    border: 15px solid var(--cor-complementar);
+    border-radius: 10px;
+    border-left: none;
+    border-bottom: none;
+    transition: 0.5s ease-in-out;
+}
+
+.fourthgrid-img:hover {
+    border: 15px solid var(--cor-complementar);
+    border-right: none;
+    border-top: none;
+    transition: 1s ease-in-out;
+}
+
+.fourthgrid-textcontent {
+    margin-top: 5%;
+}
+
+.fourthgrid-textcontent h3 {
+    width: 50%;
+    margin: auto;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.fourthgrid-btn {
+    padding: 30px;
+}
+
+/* Media queries para dispositivos com menos de 575px de tela */
+
+@media (max-width: 575px) {
+    .fourthgrid-fullcontent {
+        height: auto;
+    }
+
+    .fourthgrid-content {
+        padding: 10px;
+    }
+
+    .fourthgrid-img {
+        width: 80%;
+        height: 50%;
+    }
+
+    .fourthgrid-textcontent h3 {
+        width: 90%;
+        margin: auto;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .fourthgrid-btn {
+        padding: 20px;
+    }
+}
