@@ -1,16 +1,14 @@
 import Menu from './components/navbar/Navbar'
-import Home from './components/pages/Home'
-import './App.css'
-import Sobre from './components/pages/Sobre'
-import Form from './components/pages/Form'
+import Rotas from './routes/Rotas'
 
+import './App.css'
 
 function App() {
 
   return (
     <div className="App">
-      
-      <Form />
+      <Menu />
+      <Rotas />
     </div>
   )
 }

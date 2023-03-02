@@ -1,0 +1,595 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --cor-principal: #064848;
+    --cor-complementar: #d8efed;
+    --cor-branca: white;
+    --cor-preta: black
+}
+
+
+/* ------  HOME ------- */
+
+img {
+    width: 100%;
+}
+
+.full-width-container,
+.col-itself {
+    padding: 0;
+}
+
+.container-row,
+img {
+    height: 100vh;
+}
+
+.c2 {
+    background-color: var(--cor-complementar);
+    color: var(--cor-principal);
+    padding: 0;
+}
+
+.c2-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50%;
+    margin-left: 10%;
+}
+
+.c2-text span {
+    font-size: 20px;
+}
+
+.c2-text h1 {
+    font-size: 60px;
+}
+
+.c2-text h4 {
+    font-size: 30px;
+}
+
+.c2-btn {
+    margin-top: 10px;
+    margin-left: 10%;
+}
+
+.lista-formacao {
+    list-style: none;
+}
+
+/* Dispositivos móveis com largura menor que 576px */
+@media (max-width: 575.98px) {
+
+    img {
+        height: 55vh;
+    }
+
+    .c2 {
+        width: 100%;
+        padding-bottom: 20px;
+        height: 55vh;
+    }
+
+    .c2-text {
+        margin-top: 10%;
+        margin-left: 5%;
+    }
+
+    .c2-text span {
+        font-size: 18px;
+    }
+
+    .c2-text h1 {
+        font-size: 42px;
+    }
+
+    .c2-text h4 {
+        font-size: 26px;
+    }
+
+    .c2-btn {
+        margin-top: 5px;
+        margin-left: 5%;
+        padding-bottom: 10px;
+    }
+}
+
+/* ------ FIM DO HOME ------- */
+
+
+
+
+/* ------ SOBRE ------- */
+
+
+.sobre-full-content {
+    width: 100%;
+}
+
+.primeiro {
+    height: 100vh;
+}
+
+.sobre-h4 {
+    font-size: 18px;
+    margin-top: 2%;
+    text-align: center;
+    position: relative;
+    /* centraliza o texto */
+    padding-bottom: 10px;
+    /* adiciona espaço para a linha */
+
+}
+
+.sobre-h4::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    /* posiciona a metade da largura */
+    transform: translateX(-50%);
+    /* centraliza a linha */
+    width: 50px;
+    /* largura da linha */
+    height: 3px;
+    /* altura da linha */
+    background-color: var(--cor-principal);
+    /* cor da linha */
+}
+
+.sobre-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.sobre-container-item {
+    width: 50%;
+    text-align: center;
+}
+
+.sobre-um h2 {
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.sobre-um p {
+    margin: auto;
+    margin-top: 2%;
+    width: 50%;
+    text-align: left;
+    font-size: 16px;
+}
+
+.sobre-img {
+    width: 70%;
+    height: 60%;
+    margin: auto;
+    border: 15px solid var(--cor-principal);
+    border-radius: 10px;
+    border-left: none;
+    border-bottom: none;
+    transition: 0.5s ease-in-out;
+}
+
+.segundo {
+    height: 60vh;
+}
+
+
+.C2-sobre-img {
+    width: 50%;
+    height: 40%;
+    border: 15px solid var(--cor-principal);
+    border-radius: 10px;
+    border-left: none;
+    border-bottom: none;
+    transition: 0.5s ease-in-out;
+}
+
+.sobre-img:hover,
+.C2-sobre-img:hover {
+    border: 15px solid var(--cor-principal);
+    border-right: none;
+    border-top: none;
+    transition: 1s ease-in-out;
+}
+
+.hided {
+    display: none;
+}
+
+.cont2 h2 {
+    margin: 0;
+}
+
+/* Dispositivos móveis com largura menor que 576px */
+@media (max-width: 575px) {
+
+    .primeiro {
+        padding-top: 30%;
+    }
+
+    .segundo {
+        padding-top: 50%;
+        padding-bottom: 160%;
+    }
+
+    .sobre-container {
+        flex-direction: column;
+    }
+
+    .sobre-container-item {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .sobre-um h2 {
+        font-size: 30px;
+    }
+
+    .sobre-um p {
+        font-size: 13px;
+        width: 80%;
+    }
+
+    .cont2 {
+        padding: 10px;
+        margin-top: 5%;
+    }
+
+    .sobre-img,
+    .C2-sobre-img {
+        width: 100%;
+        height: auto;
+    }
+
+    .hided {
+        display: block;
+        width: 100%;
+        margin: 0;
+    }
+
+    .show {
+        display: none;
+    }
+
+    .lista-itens {
+        font-size: 13px;
+        width: 80%;
+        margin: auto;
+    }
+
+
+}
+
+/* ------ FIM DO SOBRE ------- */
+
+
+
+/* ------ HELP ------- */
+
+
+.help-full-content {
+    background-color: var(--cor-principal);
+    color: var(--cor-complementar);
+    height: 100vh;
+    width: 102%;
+}
+
+
+.help-h4 {
+    font-size: 18px;
+    margin-top: 2%;
+    text-align: center;
+    position: relative;
+    /* centraliza o texto */
+    padding-bottom: 10px;
+    /* adiciona espaço para a linha */
+
+}
+
+.help-h4::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    /* posiciona a metade da largura */
+    transform: translateX(-50%);
+    /* centraliza a linha */
+    width: 50px;
+    /* largura da linha */
+    height: 3px;
+    /* altura da linha */
+    background-color: var(--cor-complementar)
+        /* cor da linha */
+}
+
+.help-content h4 {
+    margin: 4% 0 4% 0;
+    text-align: center;
+}
+
+.help-btn {
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.help-card-itens {
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    grid-gap: 5px;
+    margin: 10px 0;
+    margin: auto;
+
+}
+
+/* Media queries para dispositivos com menos de 575px de tela */
+
+@media (max-width: 575px) {
+
+    .help-full-content {
+        height: 140vh;
+    }
+
+    .help-h4 {
+        margin-top: 10%;
+        font-size: 16px;
+        text-align: center;
+        position: relative;
+        /* centraliza o texto */
+        padding-bottom: 10px;
+        /* adiciona espaço para a linha */
+    }
+
+    .help-content h4 {
+        margin: 9% 0 6% 0;
+        text-align: center;
+    }
+
+    .help-btn {
+        margin-top: 3%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .help-card-itens {
+        width: 90%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        grid-gap: 5px;
+        margin: 10px 0;
+        margin: auto;
+    }
+}
+
+/* Media queries para dispositivos com menos de 575px de tela */
+
+@media (max-width: 575px) {
+
+    .help-full-content {
+        height: 140vh;
+    }
+
+    .help-h4 {
+        margin-top: 10%;
+      font-size: 16px;
+      text-align: center;
+      position: relative;
+      /* centraliza o texto */
+      padding-bottom: 10px;
+      /* adiciona espaço para a linha */
+    }
+  
+    .help-content h4 {
+      margin: 9% 0 6% 0;
+      text-align: center;
+    }
+  
+    .help-btn {
+      margin-top: 3%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .help-card-itens {
+      width: 90%;
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      justify-items: center;
+      grid-gap: 5px;
+      margin: 10px 0;
+      margin: auto;
+    }
+  }
+
+
+/* ------ FIM DO HELP ------- */
+
+
+
+/* ------ FourthGrid ------- */
+
+.fourthgrid-fullcontent {
+    height: 100vh;
+}
+
+.fourthgrid-img {
+    width: 70%;
+    height: 50%;
+    border-left: none;
+    border-bottom: none;
+    transition: 0.5s ease-in-out;
+}
+
+.fourthgrid-textcontent {
+    margin-top: 5%;
+}
+
+.fourthgrid-textcontent h3 {
+    width: 50%;
+    margin: auto;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.fourthgrid-btn {
+    padding: 30px;
+}
+
+/* Media queries para dispositivos com menos de 575px de tela */
+
+@media (max-width: 575px) {
+    .fourthgrid-fullcontent {
+        height: 120vh;
+    }
+
+    .fourthgrid-content {
+        padding: 10px;
+    }
+
+    .fourthgrid-img {
+        width: 80%;
+        height: 50%;
+    }
+
+    .fourthgrid-textcontent h3 {
+        width: 90%;
+        margin: auto;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .fourthgrid-btn {
+        padding: 20px;
+    }
+}
+
+/* ------ FIM DO FourthGrid ------- */
+
+
+
+/* ------ FifththGrid ------- */
+
+.c1-5grid {
+    background-color: var(--cor-principal);
+    color: var(--cor-complementar);
+}
+
+.c1-5grid-text {
+    margin: 100px 0 0 150px;
+    text-align: left;
+}
+
+.c1-5grid-text h3 {
+    margin-bottom: 30px;
+}
+
+.c1-5grid-text p {
+    font-size: 13px;
+}
+
+.c2-5grid-text {
+    margin: 90px 0 0 190px;
+    text-align: left;
+}
+
+.form-5grid {
+    margin-top: 50px;
+}
+
+.mb-3 {
+    width: 40%;
+    margin: 0 0 0 180px;
+    font-size: 14px;
+}
+
+.form-5grid-nome {
+    padding-left: 0 !important;
+}
+
+.form-5grid-sobrenome {
+    padding-right: 0 !important;
+}
+
+.btn-5grid {
+    margin: 30px 0 0 180px;
+}
+
+.form-control-5grid {
+    border-bottom: 1px solid #064848;
+    border-radius: 2px;
+    background-color: #edf5f4;
+}
+
+.form-control-5grid::placeholder {
+    font-size: 12px;
+}
+
+.footer-5grid {
+    font-size: 12px;
+    margin-top: 60px;
+    margin-left: 180px;
+    padding-bottom: 50px;
+
+}
+
+.footer-5grid p {
+    font-size: 10px;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+#pp-5grid {
+    margin-bottom: 15px;
+}
+
+/* Media queries para dispositivos com menos de 575px de tela */
+
+@media (max-width: 575px) {
+
+    .c2-5grid {
+        height: 120vh;
+    }
+
+    .c1-5grid-text {
+        margin: 50px 0 0 50px;
+    }
+
+    .c2-5grid-text {
+        margin: 50px 0 0 50px;
+    }
+
+    .mb-3 {
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .btn-5grid {
+        margin: 30px auto;
+        text-align: center;
+    }
+
+    .footer-5grid {
+        margin-left: 50px;
+        padding-bottom: 30px;
+        text-align: center;
+    }
+}
+
+
+/* ------ FIM DO FifththGrid ------- */

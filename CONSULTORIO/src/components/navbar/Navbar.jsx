@@ -4,33 +4,26 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Navbar.css'
+import { BiUserCircle } from 'react-icons/bi'
 
 function Menu() {
   return (
     <Navbar collapseOnSelect className='navbar-content' expand="lg" variant="dark">
       <Container>
-        <Navbar.Brand href="#home">Agenda SUS</Navbar.Brand>
+        <Navbar.Brand href="/#home">Agenda SUS</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#">Sobre</Nav.Link>
-            <Nav.Link href="#pricing">Serviços</Nav.Link>
-            <NavDropdown title="Seguros" id="collasible-nav-dropdown">
-              <NavDropdown.Item href="#">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#">
-                Another action
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#">Something</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#">
-                Separated link
-              </NavDropdown.Item>
+            <Nav.Link href="/#sobre">Sobre</Nav.Link>
+            <Nav.Link href="/#help">Serviços</Nav.Link>
+            <NavDropdown title="Consultas" id="collasible-nav-dropdown">
+              <NavDropdown.Item href="#seguros">Como funciona?</NavDropdown.Item>
             </NavDropdown>
           </Nav>
           <Nav>
-            <Nav.Link href="#deets">Contato</Nav.Link>
-            <Nav.Link eventKey={2} href="#">
-              Login
+            <Nav.Link href="/#contato">Contato</Nav.Link>
+            <Nav.Link eventKey={2} href="/login">
+              Login <BiUserCircle/>
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
