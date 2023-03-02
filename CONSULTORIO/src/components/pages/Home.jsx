@@ -10,7 +10,7 @@ function Home() {
 
         <Row className='container-row'>
           <Col sm={8}className='col-itself c1'>
-            <img src="./assets/doctor3.png" alt="" className="full-width-img" />
+            <img src="./assets/doutora.jpg" alt="" className="full-width-img" />
           </Col>
           <Col sm={4} className='col-itself c2'>
             <div className="c2-text">
