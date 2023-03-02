@@ -1,13 +1,12 @@
 import Navbar from '../components/navbar/Navbar'
-import Home from '../components/Home'
-import Sobre from '../components/Sobre'
+import Login from '../components/login/login'
 
 function Inicio() {
     return (
         <>
             <Navbar />
-            <Home />
-            <Sobre/>
+            <Login />
+            
 
         </>
     );

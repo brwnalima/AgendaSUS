@@ -1,11 +1,11 @@
 import React from 'react';
-import './login.css'
+import '../login/login.css'
 
 function Login() {
   return (
-    <div className="row">
-      <div className="col-md-6 mx-auto p-0">
-        <div className="card">
+    <div className="row1">
+      <div className="col-md-4 mx-auto p-2">
+        <div className="card1">
           <div className="login-box">
             <div className="login-snip">
               <input id="tab-1" type="radio" name="tab" className="sign-in" defaultChecked />
@@ -31,9 +31,8 @@ function Login() {
                   </div>
                   <div className="hr"></div>
                   <div className="foot">
-                    <input id="tab-3" type="radio" name="tab" className="forgot-pass" />
+                  <input id="tab-3" type="radio" name="tab" className="forgot-pass" />
                     <label htmlFor="tab-3" className="tab">Esqueceu sua senha?</label>
-
                   </div>
                 </div>
                 <div className="sign-up-form">
