@@ -11,11 +11,9 @@
 <h3> Requisitos para a construção do site:  </h3>
 
 <p> ➫ Página inicial; </p>
-<p> ➫ Sobre (com conteúdo editável); </p>
 <p> ➫ Funcionalidades (com conteúdo cadastrável e editável); </p>
 <p> ➫ Tela de contato; </p>
 <p> ➫ Utilizar Node, Express e SQLite ou Mysql na construção do back-end; </p>
-<p> ➫ Utilizar React e Bootstrap na construção do back-end; </p>
 <hr>
 <h3> Dependências: </h3>
 
