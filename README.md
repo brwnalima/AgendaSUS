@@ -20,7 +20,7 @@
 <h3> Dependências: </h3>
 
  
- Front End
+<h4>Front-End:</h4>
 cd consultorio<br>
 npm install<br>
 npm i styled-components axios<br> 
@@ -29,8 +29,8 @@ npm install react-bootstrap bootstrap<br>
 npm run dev<br>
 
 
-back end crud:
- cd backend<br>
+<h4>Back-end crud:</h4>
+cd backend<br>
 npm i<br>
 npm init -y<br>
 npm i express cors mysql<br>
