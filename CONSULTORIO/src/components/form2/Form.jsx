@@ -1,11 +1,12 @@
 import Container from 'react-bootstrap/Container';
 import Form2 from './Form2';
-import Grid from "../grid/Grid"
+import Grid from "./Grid"
 import { useEffect, useState } from "react";
 import styled from "styled-components"
-import {toast, ToastContainer} from "react-toastify"
+import { toast, ToastContainer } from "react-toastify"
 import "react-toastify/dist/ReactToastify.css"
 import axios from "axios";
+import './Form.css'
 
 const Container1 = styled.div`
   width: 100%;
@@ -15,7 +16,7 @@ const Container1 = styled.div`
   flex-direction: column;
   align-items: center;
   gap: 10px;`
-  
+
 const Title = styled.h2``;
 
 const Form = () => {
@@ -35,14 +36,15 @@ const Form = () => {
     getPacientes();
   }, [setPacientes]);
   return (
-    <>
-    <Container>
-        <Title>Pacientes</Title>
-        <Form2 onEdit={onEdit} setOnEdit={setOnEdit} getPacientes={getPacientes}/>
-        <Grid setOnEdit={setOnEdit} pacientes={pacientes} setPacientes={setPacientes} />
-    </Container>
-    <ToastContainer autoClose={3000} position={toast.POSITION.BOTTOM_LEFT}/>
-    </>
+    <div className='form-container'>
+      <Container className='form-content'>
+        <Title>Pacientes cadastrados</Title>
+        <Form2 onEdit={onEdit} setOnEdit={setOnEdit} getPacientes={getPacientes} />
+        <Grid setOnEdit={setOnEdit} pacientes={pacientes} setPacientes={setPacientes} className='form-grid' />
+      </Container>
+
+      <ToastContainer autoClose={3000} position={toast.POSITION.BOTTOM_LEFT} />
+    </div>
   )
 }
 

@@ -3,6 +3,7 @@ import axios from "axios";
 import styled from "styled-components";
 import { FaTrash, FaEdit } from "react-icons/fa";
 import { toast } from "react-toastify";
+import './Form.css'
 
 const Table = styled.table`
   width: 100%;
@@ -19,19 +20,21 @@ export const Thead = styled.thead``;
 
 export const Tbody = styled.tbody``;
 
-export const Tr = styled.tr``;
+export const Tr = styled.tr`
+
+`;
 
 export const Th = styled.th`
   text-align: start;
   border-bottom: inset;
-  padding-bottom: 5px;
+  padding: 10px;
   @media (max-width: 500px) {
     ${(props) => props.onlyWeb && "display: none"}
   }
 `;
 
 export const Td = styled.td`
-  padding-top: 15px;
+  padding: 15px;
   text-align: ${(props) => (props.alignCenter ? "center" : "start")};
   width: ${(props) => (props.width ? props.width : "auto")};
   @media (max-width: 500px) {
@@ -67,28 +70,28 @@ const Grid = ({ pacientes, setPacientes, setOnEdit }) => {
           }
           return paciente;
         });
-  
+
         setPacientes(newArray);
         toast.success(data);
       })
       .catch(({ data }) => toast.error(data));
-  
+
     setOnEdit(null);
   };
 
   return (
-    <Table>
-      <Thead>
-        <Tr>
-          <Th>Nome</Th>
-          <Th>CPF</Th>
-          <Th onlyWeb>Telefone</Th>
-          <Th>Email</Th>
-          <Th></Th>
-          <Th></Th>
+    <Table className="grid-content">
+      <Thead className="grid-thead">
+        <Tr className="grid-tr">
+          <Th className="grid-th">Nome</Th>
+          <Th className="grid-th">CPF</Th>
+          <Th className="grid-th" onlyWeb>Telefone</Th>
+          <Th className="grid-th">Email</Th>
+          <Th className="grid-th"></Th>
+          <Th className="grid-th"></Th>
         </Tr>
       </Thead>
-      <Tbody>
+      <Tbody className="grid-tbody">
         {pacientes.map((item, i) => (
           <Tr key={i}>
             <Td width="30%">{item.nome}</Td>
