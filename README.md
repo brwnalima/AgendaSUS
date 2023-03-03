@@ -1,40 +1,51 @@
 
-<h1>Agenda SUS </h1>
+<h1 align="center">Agenda SUS 🏥 </h1>
 
-<p> Projeto final em grupo da Resilia, a proposta que nos foi passada consiste em uma empresa o qual decidiu realizar o lançamento de um MVP (Produto Mínimo Viável) através de um site. Baseado no que nos foi proposto nós desenvolvemos um site com o tema voltado para a área de saúde, a Agenda SUS, onde o paciente poderá agendar sua consulta online. </p>
+<p> Projeto final em grupo da Resilia, a proposta que nos foi passada consiste em uma empresa o qual decidiu realizar o lançamento de um MVP (Produto Mínimo Viável) através de um site. 
+
+Baseado no que nos foi proposto nós desenvolvemos um site com o tema voltado para a área de saúde, a Agenda SUS, onde o paciente poderá agendar sua consulta online. </p>
 <hr>
 
+<p align="center">
+    <img src="https://media.discordapp.net/attachments/1029175137368547336/1081050002907987998/image.png?width=960&height=435"alt="image" width="100%">
+</p>
 
-<img print da pagina principal para vizualização no readme> 
 
 
 <h3> Requisitos para a construção do site:  </h3>
 
-<p> ➫ Página inicial; </p>
-<p> ➫ Funcionalidades (com conteúdo cadastrável e editável); </p>
-<p> ➫ Tela de contato; </p>
-<p> ➫ Utilizar Node, Express e SQLite ou Mysql na construção do back-end; </p>
+<p> ➫ Página inicial; ✔️</p> 
+<p> ➫ Funcionalidades (com conteúdo cadastrável e editável); ✔️</p>
+<p> ➫ Tela de contato; ✔️</p>
+<p> ➫ Utilizar Node, Express e SQLite ou Mysql na construção do back-end; ✔️</p>
+
 <hr>
+
 <h3> Dependências: </h3>
 
  
-<h4>Front-End:</h4>
-cd consultorio<br>
-npm install<br>
-npm i styled-components axios<br> 
-react-icons react-toastify<br>
-npm install react-awesome-reveal
-npm install react-bootstrap bootstrap<br>
-npm run dev<br>
+<h4>FRONT-END:</h4>
 
+```bash
+cd consultorio
+npm install
+npm i styled-components axios
+npm i react-awesome-reveal
+npm i react-bootstrap bootstrap
+npm react-icons react-toastify
+npm run dev
+```
 
-<h4>Back-end crud:</h4>
-cd backend<br>
-npm i<br>
-npm init -y<br>
-npm i express cors mysql<br>
-npm i nodemon -g<br>
+<h4>BACK-END:</h4>
+
+```bash 
+cd backend
+npm i
+npm init -y
+npm i express cors mysql
+npm i nodemon -g
 npm start
+```
 
 <div align="center">
 <h3> Tecnologias utilizadas:  </h3>
