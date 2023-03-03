@@ -1,9 +1,5 @@
 import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
-import './Pages.css'
-import Btn from '../button/Btn';
-import Form2 from "../form2/Form2"
+import Form2 from './Form2';
 import Grid from "../grid/Grid"
 import { useEffect, useState } from "react";
 import styled from "styled-components"

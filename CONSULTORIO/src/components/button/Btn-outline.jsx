@@ -4,7 +4,7 @@ import './Btn.css'
 function Btn(props) {
   return (
     <>
-      {' '} <Button href="#" variant="outline-success" className='botao-outline'>{props.frase}</Button>{' '}
+      {' '} <Button href={props.href} variant="outline-success" className='botao-outline'>{props.frase}</Button>{' '}
     </>
   );
 }

@@ -20,11 +20,12 @@ function FourthGrid() {
                                 </div>
                                 <div className="sobre-container-item cont2 sobre-um">
                                     <h3>Facilidade & Praticidade</h3>
-                                    <p> A Agenda SUS é a forma mais prática e eficiente de garantir o atendimento médico que você precisa. 
+                                    <p> A Agenda SUS é a forma mais prática e eficiente de garantir o atendimento médico que você precisa.
                                         Em nosso site, você pode agendar sua consulta de forma simples e personalizada, adequando a data e horário de acordo com suas necessidades. Além disso, durante o processo de agendamento, solicitamos apenas algumas informações pessoais para garantir a eficácia do atendimento.
                                     </p>
-                                    <div className="fourthgrid-btn">
-                                        <Btn frase='Agende agora'/>
+
+                                    <div className="fourthgrid-btn">                           
+                                            <Btn frase="Agende agora" href="/#contato"/>
                                     </div>
                                 </div>
                             </div>

@@ -2,6 +2,7 @@ import axios from "axios";
 import React, { useEffect, useRef } from "react";
 import styled from "styled-components";
 import { toast } from "react-toastify";
+import './Form2.css'
 
 const FormContainer = styled.form`
   display: flex;
@@ -104,30 +105,33 @@ const Form2 = ({ getPacientes, onEdit, setOnEdit }) => {
   };
 
   return (
-    <FormContainer ref={ref} onSubmit={handleSubmit}>
-      <InputArea>
-        <Label>Nome</Label>
-        <Input name="nome" />
-      </InputArea>
-      <InputArea>
-        <Label>CPF</Label>
-        <Input name="cpf" />
-      </InputArea>
-      <InputArea>
-        <Label>Telefone</Label>
-        <Input name="telefone" />
-      </InputArea>
-      <InputArea>
-        <Label>Email</Label>
-        <Input name="email" type="email" />
-      </InputArea>
-      <InputArea>
-        <Label>Data de Nascimento</Label>
-        <Input name="data_nasc" />
-      </InputArea>
-
-      <Button type="submit">SALVAR</Button>
-    </FormContainer>
+    
+      <FormContainer ref={ref} onSubmit={handleSubmit} className='form-container'>
+        <div className="form-content">
+          <InputArea>
+            <Label>Nome</Label>
+            <Input name="nome" />
+          </InputArea>
+          <InputArea>
+            <Label>CPF</Label>
+            <Input name="cpf" />
+          </InputArea>
+          <InputArea>
+            <Label>Telefone</Label>
+            <Input name="telefone" />
+          </InputArea>
+          <InputArea>
+            <Label>Email</Label>
+            <Input name="email" type="email" />
+          </InputArea>
+          <InputArea>
+            <Label>Data de Nascimento</Label>
+            <Input name="data_nasc" />
+          </InputArea>
+          <Button type="submit">SALVAR</Button>
+        </div>
+      </FormContainer>
+    
   );
 };
 

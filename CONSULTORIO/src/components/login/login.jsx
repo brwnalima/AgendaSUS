@@ -1,5 +1,6 @@
 import React from 'react';
 import '../login/login.css'
+import { Link } from 'react-router-dom';
 
 function Login() {
   return (
@@ -27,7 +28,7 @@ function Login() {
                     <label htmlFor="check"><span className="icon"></span> Lembrar-me</label>
                   </div>
                   <div className="group">
-                    <input type="submit" className="button" value="Login" />
+                    <Link to='/admin'><input type="submit" className="button"  value="Login" /></Link>
                   </div>
                   <div className="hr"></div>
                   <div className="foot">

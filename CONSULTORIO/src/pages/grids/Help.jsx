@@ -45,7 +45,7 @@ function Help() {
                             </div>
 
                             <div className="help-btn">
-                                <Btn frase="Agende seu atendimento" />
+                                <Btn frase="Agende seu atendimento" href="/#contato"/>
                             </div>
                         </div>
                     </div>
