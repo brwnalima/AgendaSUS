@@ -32,7 +32,6 @@ npm install
 npm i styled-components axios
 npm i react-awesome-reveal
 npm i react-bootstrap bootstrap
-npm react-icons react-toastify
 npm run dev
 ```
 
