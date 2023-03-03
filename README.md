@@ -23,6 +23,7 @@ cd consultorio<br>
 npm install<br>
 npm i styled-components axios<br> 
 react-icons react-toastify<br>
+npm install react-awesome-reveal
 npm install react-bootstrap bootstrap<br>
 npm run dev<br>
 
